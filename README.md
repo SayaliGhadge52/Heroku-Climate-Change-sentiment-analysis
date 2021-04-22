@@ -1,1 +1,1 @@
-# Heroku-Climate-Change-sentiment-analysis
+# Heruko-twitter-climate-analysis
