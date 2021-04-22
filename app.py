@@ -2,10 +2,10 @@ from flask import Flask, render_template, request, redirect, url_for
 from get_tweets import get_related_tweets
 from nltk.stem import PorterStemmer
 import regex as re
+nltk.download("stopwords")
 from nltk.corpus import stopwords
 import pickle
 import nltk
-nltk.download("stopwords")
 import pandas as pd
 with open("Tfidf.pkl", 'rb') as data:
     tfidf = pickle.load(data)
